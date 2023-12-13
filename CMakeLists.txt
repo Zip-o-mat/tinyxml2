@@ -121,10 +121,10 @@ install(
 
 ## pkg-config
 
-configure_file(cmake/tinyxml2.pc.in tinyxml2.pc.gen @ONLY)
-file(GENERATE OUTPUT tinyxml2.pc INPUT "${CMAKE_CURRENT_BINARY_DIR}/tinyxml2.pc.gen")
-install(
-    FILES "${CMAKE_CURRENT_BINARY_DIR}/tinyxml2.pc"
-    DESTINATION "${tinyxml2_INSTALL_PKGCONFIGDIR}"
-    COMPONENT tinyxml2_development
-)
+##configure_file(cmake/tinyxml2.pc.in tinyxml2.pc.gen @ONLY)
+##file(GENERATE OUTPUT tinyxml2.pc INPUT "${CMAKE_CURRENT_BINARY_DIR}/tinyxml2.pc.gen")
+##install(
+##    FILES "${CMAKE_CURRENT_BINARY_DIR}/tinyxml2.pc"
+##    DESTINATION "${tinyxml2_INSTALL_PKGCONFIGDIR}"
+##    COMPONENT tinyxml2_development
+##)
